@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       {
+       box-sizing: border-box;
+       font-family: sans-serif;
+       }
+       .header,
+       .footer {
+        background-color: maroon;
+        color: white;
+        padding: 15px;
+       }
+       .column {
+        float: let;
+        padding: 15px;
+       }
+       .column img {
+         float: right;
+       }
+       .clearfix::after {
+        content: "";
+        clear:both;
+        display: table;
+       }
+       .menu { 
+        width: 25%;
+       }
+       .content {
+        width: 75%;
+       }
+       .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+       }
+       .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: teal;
+        color: #ffffff;
+       }
+       .menu li:hover {
+        background-color: #0099cc;
+       }
+    </style>    
+  </head>
+  <body>
+   <div class="header">
+    <h1>EC</h1>
+   </div>
+   <div class="clearfix">
+    <div class="column menu">
+     <ul>
+      <li><a href="google.ca">Main Page</a></li>
+      <li> <a href="google.ca">Clubs And Teams</a></li>
+      <li><a href="google.ca">Departments</a></li>
+     </ul>
+    </div>
+    <div classs="column content">
+     <img src="google.ca">
+     <h1>Welcome</h1>
+     <p>EC LOCA</p>
+     <p>wnidnaoiwn</p>
+    </div>
+   </div>
+   <div class="footer">
+    <p>Footer Text</p>
+   </div>
+  </body>
+ </html>
+    
