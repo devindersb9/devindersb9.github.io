@@ -8,7 +8,7 @@
        }
        .header,
        .footer {
-        background-color: maroon;
+        background-color: black;
         color: white;
         padding: 15px;
        }
@@ -24,31 +24,37 @@
         clear:both;
         display: table;
        }
-       .menu { 
-        width: 25%;
-       }
        .content {
         width: 75%;
        }
-       .menu ul {
+       ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
+        overflow: hidden;
+        background-color: black;
        }
-       .menu li {
-        padding: 8px;
-        margin-bottom: 8px;
-        background-color: teal;
-        color: #ffffff;
+
+       li {
+        float: left;
        }
-       .menu li:hover {
-        background-color: #0099cc;
+
+       li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+       }
+
+       li a:hover {
+        background-color: #111;
        }
     </style>    
   </head>
   <body>
    <div class="header">
-    <h1>EC</h1>
+    <h1><center>Electronic Portfolio</center></h1>
    </div>
    <div class="clearfix">
     <div class="column menu">
@@ -59,7 +65,7 @@
      </ul>
     </div>
     <div classs="column content">
-     <img src="google.ca">
+     <center><img src="http://users.rowan.edu/~chengs4/portfolio.png"></center>
      <h1>Welcome</h1>
      <p>EC LOCA</p>
      <p>wnidnaoiwn</p>
@@ -70,4 +76,3 @@
    </div>
   </body>
  </html>
-    
