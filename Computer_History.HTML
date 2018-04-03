@@ -1,1 +1,82 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       {
+       box-sizing: border-box;
+       font-family: sans-serif;
+       }
+       .header,
+       .footer {
+        background-color: black;
+        color: white;
+        padding: 15px;
+       }
+       .column {
+        float: let;
+        padding: 15px;
+       }
+       .column img {
+         float: right;
+       }
+       .clearfix::after {
+        content: "";
+        clear:both;
+        display: table;
+       }
+       .content {
+        width: 75%;
+       }
+       ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+       }
+       li {
+        float: left;
+       }
+       li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 15px;
+        text-decoration: none;
+       }
+       li a:hover {
+        background-color: #111;
+       }
+    </style>    
+  </head>
+  <body>
+   <div class="header">
+    <h1><center>Computers History</center></h1>
+   </div>
+   <div class="clearfix">
+    <div class="column menu">
+     <ul>
+      <li><a href="Electronic_Portfolio.HTML">1970</a></li>
+      <li> <a href="Electronic_Portfolio_Contact.HTML">1980</a></li>
+      <li><a href="Electronic_Portfolio_Academic.HTML">1990</a></li>
+      <li><a href="Electronic_Portfolio_Work.HTML">2000</a></li>
+      <li><a href="Electronic_Portfolio_Accomplish.HTML">2010</a></li>
+     </ul>
+    </div>
+    <div classs="column content">
+     <center><img src="http://images.computerhistory.org/timeline/timeline_computers_1983.lisa.jpg"></center>
+     <div class="footer">
+		<p><center>Amdahl Corporation Introduces Amdahl 470</center></p>
+	</div>
+    <p>Gene Amdahl, father of the IBM System/360, starts his own company, Amdahl Corporation, to compete with IBM in mainframe computer systems. The 470V/6 was the company’s first product and ran the same software as IBM System/370 computers but cost less and was smaller and faster.</p>
+    <center><img src="http://images.computerhistory.org/timeline/timeline_computers_1970.amdahl470.jpg"></center>
+    <hr>
+     <div class="footer">
+		<p><center>Banking Automation Reaches Customers</center></p>
+	</div>
+    <p>The ERMA system had revolutionized behind-the-scenes check processing in the 1950s, spawning the funny letters still at the bottom of checks today. During the 1960s researchers in various countries have been working on bringing automation – and online transactions – to customers in the form of an Automated Teller Machine (ATM). Barclay’s Bank in the UK has likely been the first to put one in operation, in 1967. By decade’s end many systems are up or being planned in Europe and North America. The paper used by some of the first ATMs is slightly radioactive, to be machine readable. The 1970s will also see rapid growth in behind-the-scenes financial transaction networks, like SWIFT for wire transfers.</p>
+    <center><img src="http://images.computerhistory.org/timeline/timeline_networking.web_1970_atm.jpg"></center>
+   </div>
+   </div>
+  </body>
+ </html>
