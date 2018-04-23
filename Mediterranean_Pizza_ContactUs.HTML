@@ -1,1 +1,74 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       {
+       box-sizing: border-box;
+       font-family: sans-serif;
+       }
+       .header,
+       .footer {
+        background-color: #00B9FF;
+        color: white;
+        padding: 15px;
+       }
+       .column {
+        float: let;
+        padding: 15px;
+       }
+       .column img {
+         float: right;
+       }
+       .clearfix::after {
+        content: "";
+        clear:both;
+        display: table;
+       }
+       .content {
+        width: 75%;
+       }
+       ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #00B9FF;
+       }
+       li {
+        float: left;
+       }
+       li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 15px;
+        text-decoration: none;
+       }
+       li a:hover {
+        background-color: #111;
+       }
+    </style>    
+  </head>
+  <body>
+   <div class="header">
+    <h1><center>Mediterranean Pizza</center></h1>
+   </div>
+   <div class="clearfix">
+    <div class="column menu">
+     <ul>
+      <li><a href="Mediterranean_Pizza_Home.HTML">Home</a></li>
+      <li> <a href="Mediterranean_Pizza_Store.HTML">Store</a></li>
+      <li><a href="Mediterranean_Pizza_ContactUs.HTML">Contact Us</a></li>
+      <li><a href="Mediterranean_Pizza_About.HTML">About</a></li>
+     </ul>
+    </div>
+    <div classs="column content">
+     <center><img src="http://cdn-img.health.com/sites/default/files/styles/large_16_9/public/styles/main/public/mediterranean-pizza-xl.jpg?itok=OxVZwtyJ"></center>
+     <p><center>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit munere facilis accusam eu dicat falli consulatu at vis. Te facilisis mnesarchum qui posse</center></p>
+    </div>
+   </div>
+   <div class="footer">
+    <p><center>Mediterranean Pizza™ Est. 2018</center></p>
+   </div>
+  </body>
+ </html>
